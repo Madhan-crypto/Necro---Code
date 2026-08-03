@@ -20,11 +20,11 @@ DiffForge is an autonomous code health agent designed to eliminate technical deb
 To get started with DiffForge locally or in your development environment:
 
 ```bash
-# Install the DiffForge CLI globally via npm
-npm install -g @diffforge/cli
+# Install the Necro - Code CLI globally via npm
+npm install -g @Necro - Code/cli
 
 # Or install via pip if using the Python distribution
-pip install diffforge-cli
+pip install necro-code-cli
 ```
 
 ---
@@ -34,7 +34,7 @@ pip install diffforge-cli
 Initialize DiffForge in the root directory of your project to create a default configuration file:
 
 ```bash
-diffforge init
+necro-code init
 ```
 
 This will generate a `.diffforge.json` configuration file:
@@ -59,7 +59,7 @@ This will generate a `.diffforge.json` configuration file:
 
 ## 🛠️ CI/CD Workflow Integration
 
-Integrate DiffForge directly into your **GitHub Actions** workflow by adding the following step to your `.github/workflows/main.yml`:
+Integrate Necro - Code directly into your **GitHub Actions** workflow by adding the following step to your `.github/workflows/main.yml`:
 
 ```yaml
 name: Continuous Code Rejuvenation
