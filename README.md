@@ -1,8 +1,8 @@
-# DiffForge 🛠️
+# Necro - Code 🛠️
 
 **Autonomous code rejuvenation for modern engineering teams.**
 
-DiffForge is an autonomous code health agent designed to eliminate technical debt and optimize repository performance. As codebases scale, they naturally accumulate dead code, legacy anti-patterns, and unreachable logical blocks—wasting up to 30% of engineering velocity on maintenance overhead. While traditional linters merely flag these structural flaws and inflate backlogs, DiffForge closes the loop by automatically generating the actual fixes.
+Necro - Code is an autonomous code health agent designed to eliminate technical debt and optimize repository performance. As codebases scale, they naturally accumulate dead code, legacy anti-patterns, and unreachable logical blocks—wasting up to 30% of engineering velocity on maintenance overhead. While traditional linters merely flag these structural flaws and inflate backlogs, Necro - Code closes the loop by automatically generating the actual fixes.
 
 ---
 
@@ -37,7 +37,7 @@ Initialize DiffForge in the root directory of your project to create a default c
 necro-code init
 ```
 
-This will generate a `.diffforge.json` configuration file:
+This will generate a `.necro-code.json` configuration file:
 
 ```json
 {
